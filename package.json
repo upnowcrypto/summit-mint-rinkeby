@@ -4,6 +4,7 @@
   "description": "NFTs for Austin, TX nightlife",
   "private": true,
   "dependencies": {
+    "axios": "^0.27.2",
     "react": "^17.0.2",
     "react-animations": "^1.0.0",
     "react-dom": "^17.0.2",
