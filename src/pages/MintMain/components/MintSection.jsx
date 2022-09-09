@@ -103,7 +103,7 @@ function MintSection() {
     mintStatus: "Connect Wallet Below",
     userMints: undefined,
   });
-  const wlApiEndpoint = "https://test.io";
+  const wlApiEndpoint = "https://summit-wl-api.herokuapp.com/";
   const [whitelistProof, setWhitelistProof] = useState(null);
   const [claimingNft, setClaimingNft] = useState(false);
   const [feedback, setFeedback] = useState(`Click buy to mint your NFT`);
