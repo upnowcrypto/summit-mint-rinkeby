@@ -1,0 +1,51 @@
+/********************************/
+/************** Hero ************/
+/********************************/
+
+#hero {
+  background-size: cover;
+  height: 100vh;
+  /* height: calc(100vh - 80px); */
+}
+
+.myVideo {
+  /* position: fixed; */
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  /* height: calc(100vh - 80px); */
+}
+
+.heroContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.heroText {
+  font-size: 22px;
+  color: #59bdcd;
+  font-family: myfourthFont;
+}
+
+@media (max-width: 767px) {
+  .logo {
+    width: 130px;
+    text-decoration: none;
+  }
+  .heroText {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1300px) {
+}

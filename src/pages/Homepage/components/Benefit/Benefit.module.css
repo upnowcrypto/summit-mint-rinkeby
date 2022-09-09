@@ -1,0 +1,154 @@
+/*********************************/
+/************* Benefit ***********/
+/*********************************/
+
+.benefit {
+  background-color: #01080c;
+  padding: 50px 0;
+}
+
+.benefitText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 54px;
+}
+
+.rare1 {
+  background: #363942 !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 0;
+  border-radius: 10px;
+  border: 2px solid #06afca;
+  height: 350px;
+  margin: 20px;
+}
+
+.rareBacked {
+  width: 8%;
+  margin: 0 auto;
+  border-radius: 50px;
+  left: 32%;
+  width: 34%;
+  background: #06afca;
+  padding: 11px 0;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+  font-family: mythirdFont;
+}
+
+.separator2 {
+  width: 77%;
+  height: 1px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+.daysRare {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.rareContent > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+.rareContent > img {
+  margin-right: 21px;
+}
+.rareContent {
+  display: flex;
+  align-items: baseline;
+  width: 77%;
+  margin: 0 auto;
+}
+.rareContent > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 0;
+}
+.rareContent > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 0;
+}
+
+.subCap {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.videoContainer {
+  border: 2px solid #06afca;
+  border-radius: 7px;
+  margin: 20px;
+  padding: 10px;
+}
+
+video#myVideo1 {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .benefitsTitle {
+    font-size: 48px !important;
+  }
+  .benefitText {
+    line-height: 1.7;
+    font-size: 14px !important;
+    margin-bottom: 15px !important;
+  }
+  .rareBacked {
+    left: 20%;
+    width: 20%;
+    padding: 8px 0;
+    font-size: 15px;
+  }
+  .daysRare {
+    font-size: 13px;
+  }
+
+  video#myVideo1 {
+    margin: 14px 0 !important;
+  }
+  video#myVideo1 {
+    margin: 10px auto !important;
+  }
+  video#myVideo1 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .rareContent > p {
+    font-size: 11px;
+  }
+}

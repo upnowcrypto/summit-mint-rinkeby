@@ -1,0 +1,52 @@
+/********************************/
+/*********** HowToMint **********/
+/********************************/
+
+.howToMint {
+  padding: 10px 0;
+  background: #01070c;
+}
+
+.howToMintContent {
+  background: #011a1e;
+  text-align: center;
+  border-radius: 7px;
+  padding: 15px;
+}
+
+.cardImage {
+  width: 120px;
+  height: 120px;
+}
+
+.cardTitle {
+  font-weight: 400;
+  font-size: 25px;
+  font-family: mythirdFont;
+  line-height: 37px;
+  color: #06afca;
+}
+
+.cardText {
+  line-height: 25px;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+@media (max-width: 767px) {
+  .howToMintContent {
+    padding: 10px;
+  }
+  .cardImage {
+    width: 30%;
+  }
+  .cardTitle {
+    font-size: 20px;
+  }
+
+  .cardText {
+    font-size: 15px;
+    font-weight: 400;
+  }
+}

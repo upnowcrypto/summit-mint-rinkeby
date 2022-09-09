@@ -1,0 +1,23 @@
+/*********************************/
+/*********** MintSection *********/
+/*********************************/
+
+video#myVideo1 {
+  border: 1px solid #06afca;
+  border-radius: 7px;
+  width: 76%;
+  margin: 0 auto;
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  video#myVideo1 {
+    margin: 14px 0 !important;
+  }
+  video#myVideo1 {
+    margin: 10px auto !important;
+  }
+  video#myVideo1 {
+    width: 100%;
+  }
+}

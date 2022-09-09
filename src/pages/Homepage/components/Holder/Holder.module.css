@@ -1,0 +1,138 @@
+/********************************/
+/************* Holder ***********/
+/********************************/
+
+.holderBenefit {
+  background: #010509;
+  padding: 50px 0;
+}
+
+.featuredWork {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.featuredWork .bkg {
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featuredWork .caption {
+  position: absolute;
+  top: 100%;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.featuredWork:hover .caption {
+  top: 0;
+  -webkit-transform: all 0.3s;
+  -moz-transform: all 0.3s;
+  -ms-transform: all 0.3s;
+  -o-transform: all 0.3s;
+  transform: all 0.3s;
+}
+.featuredWork:hover .bkg {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  -webkit-transform: all 0.3s;
+  -moz-transform: all 0.3s;
+  -ms-transform: all 0.3s;
+  -o-transform: all 0.3s;
+  transform: all 0.3s;
+  transition-delay: 0.2s;
+}
+
+.caption > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.8;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+.caption > p > br {
+  display: none;
+}
+
+.imageTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 42px;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+div#bkg1 {
+  height: 300px;
+}
+div#bkg2 {
+  height: 300px;
+  margin-top: 30px;
+}
+div#bkg3 {
+  height: 630px;
+}
+div#bkg4 {
+  height: 300px;
+}
+div#bkg5 {
+  height: 300px;
+  margin-top: 30px;
+}
+
+@media (max-width: 1399px) {
+  .caption > p > br {
+    display: none;
+  }
+  .caption > p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  div#bkg1 {
+    height: 400px;
+  }
+  div#bkg2 {
+    height: 400px;
+    margin-top: 30px;
+  }
+  div#bkg3 {
+    height: 330px;
+    margin-top: 30px;
+  }
+  div#bkg4 {
+    height: 400px;
+    margin-top: 30px;
+  }
+  div#bkg5 {
+    height: 400px;
+    margin-top: 30px;
+  }
+}

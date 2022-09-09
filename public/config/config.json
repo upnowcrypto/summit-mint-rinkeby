@@ -1,0 +1,21 @@
+{
+  "CONTRACT_ADDRESS": "0xDC025BAeE31b1DB51034FB4798a8CfA2eF4031Da",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0xDC025BAeE31b1DB51034FB4798a8CfA2eF4031Da",
+  "NETWORK": {
+    "NAME": "Rinkeby",
+    "SYMBOL": "ETH",
+    "ID": 4
+  },
+  "NFT_NAME": "Summit Collection",
+  "SYMBOL": "SC",
+  "TIER1_MAX_SUPPLY": 250,
+  "TIER2_MAX_SUPPLY": 750,
+  "WEI_COST": 1000000000000000000,
+  "WEI_COST2": 500000000000000000,
+  "DISPLAY_COST": 1,
+  "DISPLAY_COST2": 0.5,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "OpenSea",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/the-summit-collection-v2",
+  "SHOW_BACKGROUND": true
+}

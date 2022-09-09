@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <base href="/" />
+    <!-- <link rel="icon" href="./logo.png" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="./config/theme.css" />
+    <link rel="stylesheet" href="../src/pages/Homepage/Homepage.jsx" />
+    <!-- <link rel="icon" type="image/x-icon" href="config/images/favicon.ico"> -->
+    <!-- <link rel="apple-touch-icon" href="./logo192.png" /> -->
+    <link rel="apple-touch-icon" sizes="76x76" href="config/images//apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="config/images//favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="config/images//favicon-16x16.png" />
+
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="./manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Summit Collection</title>
+    <!-- <meta name="Underwater pfp built to take NFTs back to where they belong: fun, cute, and focused around community" content="Mint your Pixel Puffer Fish NFT" /> -->
+
+    <link rel="stylesheet" href="/impact.ttf" />
+    <link rel="stylesheet" href="/EuclidFlex-Bold.otf" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+  </head>
+  <style>
+    @font-face {
+      font-family: mythirdFont;
+      src: url(impact.ttf);
+    }
+    @font-face {
+      font-family: myfourthFont;
+      src: url(EuclidFlex-Bold.otf);
+    }
+  </style>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+  <script src="js/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      const minus = $(".quantity__minus");
+      const plus = $(".quantity__plus");
+      const input = $(".quantity__input");
+      minus.click(function (e) {
+        e.preventDefault();
+        var value = input.val();
+        if (value > 1) {
+          value--;
+        }
+        input.val(value);
+      });
+
+      plus.click(function (e) {
+        e.preventDefault();
+        var value = input.val();
+        value++;
+        input.val(value);
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      const minus = $(".quantity__minus1");
+      const plus = $(".quantity__plus1");
+      const input = $(".quantity__input1");
+      minus.click(function (e) {
+        e.preventDefault();
+        var value = input.val();
+        if (value > 1) {
+          value--;
+        }
+        input.val(value);
+      });
+
+      plus.click(function (e) {
+        e.preventDefault();
+        var value = input.val();
+        value++;
+        input.val(value);
+      });
+    });
+  </script>
+</html>
