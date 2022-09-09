@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import styled from "styled-components";
+import axios from 'axios';
 
 import { connect } from "redux/blockchain/blockchainActions";
 import { fetchDataBase } from "redux/data/dataActions";
